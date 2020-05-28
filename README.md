@@ -5,11 +5,11 @@ Our project is dedicated to the development of a model that efficiently classify
 The data from the ongoing Kaggle competition is used in the project:
 https://www.kaggle.com/c/nlp-getting-started/data. 
 The data consists of:
-id - a unique identifier for each tweet
-text - the text of the tweet
-location - the location the tweet was sent from (may be blank)
-keyword - a particular keyword from the tweet (may be blank)
-target - this denotes whether a tweet is about a real disaster (1) or not (0)
+- id - a unique identifier for each tweet
+- text - the text of the tweet
+- location - the location the tweet was sent from (may be blank)
+- keyword - a particular keyword from the tweet (may be blank)
+- target - this denotes whether a tweet is about a real disaster (1) or not (0)
 There are 7503 unique instances in the training dataset: 3271 tweets about a real disaster and 4342 tweets that are not about a real disaster.
 
 The results are evaluated using the provided test dataset, which contains 3243 unique values, with accuracy, precision, recall and f1 score metrics.
