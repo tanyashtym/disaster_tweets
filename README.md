@@ -13,3 +13,5 @@ The data consists of:
 There are 7503 unique instances in the training dataset: 3271 tweets about a real disaster and 4342 tweets that are not about a real disaster.
 
 The results are evaluated using the provided test dataset, which contains 3243 unique values, with accuracy, precision, recall and f1 score metrics.
+
+In this project, we developed a system that identifies tweets about the real disaster, where we implemented, trained and compared the performance of 5 different models: SVM, LR, BiLSTM, CNN,  combined BiLSTM and CNN.
